@@ -1,0 +1,29 @@
+{
+  "name": "passwordsecuritychecker",
+  "version": "0.1.1",
+  "description": "This API will check your password and tell you if it is safe to use or not by giving it a grade of weak, moderate, or strong.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jellychain1"
+  },
+  "keywords": [
+    "Password",
+    "Checker",
+    "Security",
+    "API",
+    "AI"
+  ],
+  "author": "Life Coach Ray",
+  "license": "GNU",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "server.js": "^1.0.0"
+  }
+}
